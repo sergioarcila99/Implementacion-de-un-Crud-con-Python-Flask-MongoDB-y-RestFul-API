@@ -17,22 +17,23 @@ Algunas características importantes de MongoDB incluyen su capacidad para escal
 
 MongoDB se utiliza ampliamente en una variedad de aplicaciones, incluyendo aplicaciones web, análisis de datos, gestión de contenido y sistemas IoT. Es especialmente útil cuando se necesitan almacenar y consultar grandes cantidades de datos no estructurados o semi-estructurados de manera eficiente. En resumen, MongoDB es una opción popular para aquellos que buscan una base de datos flexible y escalable para sus aplicaciones.
 
-MONGODB ATLAS:
-MongoDB Atlas es un servicio de base de datos en la nube completamente gestionado que ofrece todas las capacidades de MongoDB sin la necesidad de configurar ni administrar servidores de base de datos. Permite a los desarrolladores centrarse en la construcción de aplicaciones sin preocuparse por la infraestructura subyacente.
+# MONGODB ATLAS
 
-Algunas características clave de MongoDB Atlas incluyen:
+**MongoDB Atlas** es un servicio de base de datos en la nube completamente gestionado que ofrece todas las capacidades de MongoDB sin la necesidad de configurar ni administrar servidores de base de datos. Permite a los desarrolladores centrarse en la construcción de aplicaciones sin preocuparse por la infraestructura subyacente.
 
-Gestión automática: Atlas se encarga de la configuración, el escalado y el mantenimiento de los clústeres de MongoDB, liberando a los desarrolladores de tareas de administración.
+### Características clave:
 
-Escalabilidad sencilla: Permite escalar horizontalmente los clústeres de MongoDB con facilidad, adaptándose a las necesidades cambiantes de las aplicaciones.
+- **Gestión automática:** Atlas se encarga de la configuración, el escalado y el mantenimiento de los clústeres de MongoDB, liberando a los desarrolladores de tareas de administración.
 
-Alta disponibilidad: Los clústeres de MongoDB en Atlas se despliegan en múltiples regiones y zonas de disponibilidad para garantizar la alta disponibilidad y la resistencia a fallos.
+- **Escalabilidad sencilla:** Permite escalar horizontalmente los clústeres de MongoDB con facilidad, adaptándose a las necesidades cambiantes de las aplicaciones.
 
-Seguridad avanzada: Ofrece características de seguridad robustas, como cifrado de datos y autenticación basada en roles, para proteger la integridad de los datos.
+- **Alta disponibilidad:** Los clústeres de MongoDB en Atlas se despliegan en múltiples regiones y zonas de disponibilidad para garantizar la alta disponibilidad y la resistencia a fallos.
 
-Integración flexible: Se integra fácilmente con otras plataformas en la nube y herramientas de desarrollo, simplificando el desarrollo de aplicaciones modernas y escalables.
+- **Seguridad avanzada:** Ofrece características de seguridad robustas, como cifrado de datos y autenticación basada en roles, para proteger la integridad de los datos.
 
-MongoDB Atlas es ampliamente utilizado por empresas de todos los tamaños en una variedad de aplicaciones, desde comercio electrónico hasta análisis de datos, debido a su simplicidad, escalabilidad y seguridad. Es una opción popular para aquellos que buscan una base de datos en la nube fácil de usar y altamente confiable.
+- **Integración flexible:** Se integra fácilmente con otras plataformas en la nube y herramientas de desarrollo, simplificando el desarrollo de aplicaciones modernas y escalables.
+
+**MongoDB Atlas** es ampliamente utilizado por empresas de todos los tamaños en una variedad de aplicaciones, desde comercio electrónico hasta análisis de datos, debido a su simplicidad, escalabilidad y seguridad. Es una opción popular para aquellos que buscan una base de datos en la nube fácil de usar y altamente confiable.
 
 # LENGUAJE DE PROGRAMACION
 
