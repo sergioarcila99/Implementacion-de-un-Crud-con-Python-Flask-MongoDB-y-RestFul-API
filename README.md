@@ -17,7 +17,11 @@ MONGODB ATLAS:
 # LENGUAJE DE PROGRAMACION
 
 # PYTHON
+En el ámbito técnico, Python se define como un lenguaje de programación de alto nivel, con orientación a objetos y una semántica dinámica incorporada, principalmente utilizado para el desarrollo de aplicaciones web y de software. Destaca en el Desarrollo Rápido de Aplicaciones (RAD) debido a su tipificación y encuadernación dinámicas, lo que lo hace atractivo para desarrolladores.
 
+La simplicidad relativa de Python lo convierte en una opción fácil de aprender, gracias a su sintaxis legible y única. Esto facilita la lectura y traducción del código, reduciendo así los costos de mantenimiento y desarrollo del programa. Esto permite a los equipos trabajar juntos sin dificultades significativas de lenguaje y fomenta la experimentación.
+
+Además, Python admite el uso de módulos y paquetes, lo que facilita el diseño de programas de manera modular y la reutilización de código en diferentes proyectos. Una vez que se desarrolla un módulo o paquete, puede escalarse para su uso en otros proyectos, siendo fácil de importar y exportar.
 # FRAMEWORK
 
 # FLASK
