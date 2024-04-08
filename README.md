@@ -1,31 +1,28 @@
 # Implementacion-de-un-Crud-con-Python-Flask-MongoDB-y-RestFul-API
 
+Que es un CRUD:
 
-# Elementos necesarios para la creacion de un CRUD
+# Marco Teorico
 
-Primero que es un CRUD
+# API:
 
-CRUD : 
+# RESTFUL API:
 
-API:
+# BASE DE DATOS (DB):
 
-RESTFUL API:
-
-BASE DE DATOS (DB):
-
-MONGODB:
+# MONGODB:
 
 MONGODB ATLAS:
 
-LENGUAJE DE PROGRAMACION:
+# LENGUAJE DE PROGRAMACION:
 
-PYTHON:
+# PYTHON:
 
-FRAMEWORK:
+# FRAMEWORK:
 
-FLASK:
+# FLASK:
 
-EDITOR DE CODIGO FUENTE:
+# EDITOR DE CODIGO FUENTE:
 
-VISUAL STUDIO CODE:
+# VISUAL STUDIO CODE:
 
