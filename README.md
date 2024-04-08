@@ -21,7 +21,9 @@ En el ámbito técnico, Python se define como un lenguaje de programación de al
 
 La simplicidad relativa de Python lo convierte en una opción fácil de aprender, gracias a su sintaxis legible y única. Esto facilita la lectura y traducción del código, reduciendo así los costos de mantenimiento y desarrollo del programa. Esto permite a los equipos trabajar juntos sin dificultades significativas de lenguaje y fomenta la experimentación.
 
-Además, Python admite el uso de módulos y paquetes, lo que facilita el diseño de programas de manera modular y la reutilización de código en diferentes proyectos. Una vez que se desarrolla un módulo o paquete, puede escalarse para su uso en otros proyectos, siendo fácil de importar y exportar.
+¿Para que se usa?
+
+Python es un lenguaje de programación de propósito general, lo que significa que puede aplicarse a una amplia gama de tareas. Su naturaleza interpretada implica que el código escrito no se compila antes de la ejecución, y por eso se le conoce también como un "lenguaje de scripting", originalmente destinado para proyectos simples. Sin embargo, ha evolucionado significativamente y ahora se emplea en la programación de grandes aplicaciones comerciales en lugar de solo aplicaciones básicas.
 # FRAMEWORK
 
 # FLASK
