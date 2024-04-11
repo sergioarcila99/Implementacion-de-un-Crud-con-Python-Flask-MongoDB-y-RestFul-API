@@ -98,7 +98,7 @@ Las ventajas de flask son las mismas ventajas que aporta un framework cualquiera
 - **Incluye un servidor web de desarrollo:** No se necesita una infraestructura con un servidor web para probar las aplicaciones sino de una manera sencilla se puede correr un servidor web para ir viendo los resultados que se van obteniendo.
 - **Tiene un depurador y soporte integrado para pruebas unitarias:** Si tenemos algún error en el código que se está construyendo se puede depurar ese error y se puede ver los valores de las variables. Además está la posibilidad de integrar pruebas unitarias.
 - Es compatible con Python3.
--**Es compatible con wsgi:** Wsig es un protocolo que utiliza los servidores web para servir las páginas web escritas en Python.
+- **Es compatible con wsgi:** Wsig es un protocolo que utiliza los servidores web para servir las páginas web escritas en Python.
 - **Buen manejo de rutas:** Cuando se trabaja con Apps Web hechas en Python se tiene el controlador que recibe todas las peticiones que hacen los clientes y se tienen que determinar que ruta está accediendo el cliente para ejecutar el código necesario.
 - Soporta de manera nativa el uso de cookies seguras.
 - Se pueden usar sesiones.
