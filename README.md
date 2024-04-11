@@ -87,9 +87,12 @@ Flask es un framework escrito en Python que permite crear aplicaciones de forma 
 **Ventajas de usar Flask**  
 Las ventajas de flask son las mismas ventajas que aporta un framework cualquiera. Aunque hablando de flask, podemos concretarla en las siguientes. 
 
-**Estructura del proyecto:** las apps que se construyen con Flask tienen elementos y ficheros idénticos. Hay una estructura y se puede seguir al dedillo, facilitando las tareas. 
-**Colaboración facilitada:** colaboración entre programadores que quieran entrar a inspeccionar el proyecto que estás creando. 
-**Biblioteca:** Es fácil encontrar bibliotecas adaptadas al Framework.
+**Estructura del proyecto:** 
+las apps que se construyen con Flask tienen elementos y ficheros idénticos. Hay una estructura y se puede seguir al dedillo, facilitando las tareas. 
+**Colaboración facilitada:** 
+colaboración entre programadores que quieran entrar a inspeccionar el proyecto que estás creando. 
+**Biblioteca:** 
+Es fácil encontrar bibliotecas adaptadas al Framework.
 # EDITOR DE CODIGO FUENTE
 
 # VISUAL STUDIO CODE
