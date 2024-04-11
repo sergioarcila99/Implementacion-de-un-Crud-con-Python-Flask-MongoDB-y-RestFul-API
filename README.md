@@ -7,7 +7,18 @@ CRUD: Es el acrónimo de Create (Crear), Read (Leer), Update (Actualizar) y Dele
 # API
 Las API son mecanismos que permiten a dos componentes de software comunicarse entre sí mediante un conjunto de definiciones y protocolos. Por ejemplo, el sistema de software del instituto de meteorología contiene datos meteorológicos diarios. La aplicación meteorológica de su teléfono “habla” con este sistema a través de las API y le muestra las actualizaciones meteorológicas diarias en su teléfono.
 # RESTFUL API
+Es una API ya implementada que esta construida utilizando la logica de rest, En otras palabras, son el puente de comunicación entre frontend y backend.
 
+**Principios de una API REST (API RESTful)**
+Una API RESTful es una interfaz que utiliza los principios de REST para comunicarse hacia y desde un servidor.
+
+El principio más importante en las APIs RESTful es el uso de los métodos HTTP:
+
+GET
+POST
+PUT
+DELETE
+Estos métodos son empleados por los clientes para crear, manipular y eliminar datos en los servidores, respectivamente.
 # BASE DE DATOS (DB)
 
 # MONGODB
