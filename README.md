@@ -53,11 +53,11 @@ En el ámbito técnico, Python se define como un lenguaje de programación de al
 
 La simplicidad relativa de Python lo convierte en una opción fácil de aprender, gracias a su sintaxis legible y única. Esto facilita la lectura y traducción del código, reduciendo así los costos de mantenimiento y desarrollo del programa. Esto permite a los equipos trabajar juntos sin dificultades significativas de lenguaje y fomenta la experimentación.
 
-¿Para que se usa?
+**¿Para que se usa?**
 
 Python es un lenguaje de programación de propósito general, lo que significa que puede aplicarse a una amplia gama de tareas. Su naturaleza interpretada implica que el código escrito no se compila antes de la ejecución, y por eso se le conoce también como un "lenguaje de scripting", originalmente destinado para proyectos simples. Sin embargo, ha evolucionado significativamente y ahora se emplea en la programación de grandes aplicaciones comerciales en lugar de solo aplicaciones básicas.
 
-¿Como Funciona?
+**¿Como Funciona?**
 
 El lenguaje de programación Python utiliza módulos de código intercambiables en lugar de largas listas de instrucciones, como era común en los lenguajes de programación funcional. La implementación estándar de Python, conocida como "cpython", no convierte directamente el código en lenguaje de máquina que el hardware pueda entender. En su lugar, lo convierte en un formato llamado "código de bytes", el cual no es legible por la CPU. Por lo tanto, se requiere un intérprete llamado Máquina Virtual Python (PVM) para ejecutar estos códigos de bytes.
 
@@ -67,9 +67,29 @@ El intérprete lee el código Python e verifica su sintaxis. Si encuentra algún
 Si el código está bien formateado, el intérprete lo traduce a su equivalente en un lenguaje intermedio llamado "código de bytes".
 Este código de bytes se envía a la Máquina Virtual Python, donde se ejecuta. Si se produce un error durante esta ejecución, se detiene con un mensaje de error.
 # FRAMEWORK
+Un framework es una estructura diseñada para simplificar la resolución de problemas comunes en programación. Estas herramientas agilizan el proceso al ayudar con la organización del código y la colaboración en equipos de trabajo. En esencia, los frameworks tienen como propósito hacer más fácil el trabajo de los programadores.
 
+Además, es importante señalar que muchos de estos frameworks no solo facilitan la organización del trabajo, sino que también proporcionan recursos desarrollados por otros programadores. Estos recursos pueden incluir informes o códigos que pueden ser utilizados para abordar problemas comunes en la realización de tareas específicas.
+
+**Tipos de framework**
+
+**Frameworks para software development**
+Los frameworks para aplicaciones generales se utilizan para mejorar la estructura de una aplicación. Su objetivo es proporcionar una estructura base para los desarrolladores de software con la que puedan organizar sus proyectos. Eso sí, siempre dentro de un sistema operativo determinado. 
+
+**Frameworks para desarrollo web**
+Al estar relacionados con el diseño web, es evidente que existen diferentes frameworks para los diferentes lenguajes de programación que se utilizan. Un desarrollador backend y uno de frontend usarán marcos de trabajo distintos, aunque existen algunos ideales para los full stack developers como ReactJS.
+
+**Marco de gestión de contenido**
+De nuevo, un tipo de frameworks relacionados con el diseño web. Aun así, en este caso se trata de interfaces diseñadas para personalizar un CMS. En consecuencia, existen una gran cantidad de CMFs, ideales para diferentes lenguajes e incluso para diferentes tareas dentro de un lenguajes.
 # FLASK
+Flask es un framework escrito en Python que permite crear aplicaciones de forma sencilla y rápida. Es decir, un acelerador de tareas que funciona con pocas líneas de código y que ejecuta las aplicaciones rápidamente. 
 
+**Ventajas de usar Flask**  
+Las ventajas de flask son las mismas ventajas que aporta un framework cualquiera. Aunque hablando de flask, podemos concretarla en las siguientes. 
+
+**Estructura del proyecto:** las apps que se construyen con Flask tienen elementos y ficheros idénticos. Hay una estructura y se puede seguir al dedillo, facilitando las tareas. 
+**Colaboración facilitada:** colaboración entre programadores que quieran entrar a inspeccionar el proyecto que estás creando. 
+**Biblioteca:** Es fácil encontrar bibliotecas adaptadas al Framework.
 # EDITOR DE CODIGO FUENTE
 
 # VISUAL STUDIO CODE
