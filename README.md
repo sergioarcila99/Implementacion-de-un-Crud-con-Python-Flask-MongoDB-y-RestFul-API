@@ -92,6 +92,20 @@ Las ventajas de flask son las mismas ventajas que aporta un framework cualquiera
 - **Colaboración facilitada:** colaboración entre programadores que quieran entrar a inspeccionar el proyecto que estás creando.
   
 - **Biblioteca:** Es fácil encontrar bibliotecas adaptadas al Framework.
+
+**Por qué usar Flask**
+- **Flask es un “micro” Framework:** Para desarrollar una App básica o que se quiera desarrollar de una forma ágil y rápida Flask puede ser muy conveniente, para determinadas aplicaciones no se necesitan muchas extensiones y es suficiente.
+- **Incluye un servidor web de desarrollo:** No se necesita una infraestructura con un servidor web para probar las aplicaciones sino de una manera sencilla se puede correr un servidor web para ir viendo los resultados que se van obteniendo.
+- **Tiene un depurador y soporte integrado para pruebas unitarias:** Si tenemos algún error en el código que se está construyendo se puede depurar ese error y se puede ver los valores de las variables. Además está la posibilidad de integrar pruebas unitarias.
+- Es compatible con Python3.
+-**Es compatible con wsgi:** Wsig es un protocolo que utiliza los servidores web para servir las páginas web escritas en Python.
+- **Buen manejo de rutas:** Cuando se trabaja con Apps Web hechas en Python se tiene el controlador que recibe todas las peticiones que hacen los clientes y se tienen que determinar que ruta está accediendo el cliente para ejecutar el código necesario.
+- Soporta de manera nativa el uso de cookies seguras.
+- Se pueden usar sesiones.
+- **Flask no tiene ORMs:** Pero se puede usar una extensión.
+- Sirve para construir servicios web (como APIs REST) o aplicaciones de contenido estático.
+- Flask es Open Source y está amparado bajo una licencia BSD.
+- Buena documentación, código de GitHub y lista de correos.
 # EDITOR DE CODIGO FUENTE
 
 # VISUAL STUDIO CODE
