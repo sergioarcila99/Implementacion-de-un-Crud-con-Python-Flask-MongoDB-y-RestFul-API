@@ -127,11 +127,13 @@ A pesar de que su nombre evoca a otra herramienta de Microsoft, Visual Studio ID
 VSCode nos permite comenzar a editar con una buena cantidad de herramientas de base que nos evita configurar nada en el editor para disponer de una experiencia de desarrollo bastante buena. Actualmente VSCode es el editor más usado para programadores, con una diferencia disparada de sus competidores. Existen extensiones para personalizarlo para cantidad de lenguajes, frameworks y herramientas.
 
 **¿Para qué sirve Visual Studio Code?**
+
 Básicamente, se trata de un editor de código. Esto quiere decir, una herramienta que nos permite editar el texto plano de los archivos de código para programación. Sin embargo, detrás de esa necesidad inicial, Visual Studio Code se puede configurar para realizar muchos tipos de tareas, incluso más allá de abrir y escribir simples archivos de texto.
 
 Así pues, VSCode es una herramienta extremadamente versátil, capaz de facilitar muchas tareas de la programación, llegando (con las correspondientes extensiones) a funcionar casi al nivel de un IDE. Ahora resumimos algunas de sus principales funciones.
 
 **Ventajas clave de utilizar Visual Studio Code**
+
 Al explorar las funcionalidades de Visual Studio Code, hemos dejado entrever algunas de sus ventajas, pero queremos insistir en algunos puntos:
 
 1. Eficiencia y agilidad en la programación.
