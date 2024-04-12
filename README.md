@@ -108,5 +108,34 @@ Las ventajas de flask son las mismas ventajas que aporta un framework cualquiera
 - Buena documentación, código de GitHub y lista de correos.
 # EDITOR DE CODIGO FUENTE
 
+Los editores de código son las herramientas que todo desarrollador debe tener a mano. Permiten editar código fuente en diversos lenguajes de programación y ofrecen múltiples herramientas para facilitar el trabajo y aumentar la productividad.
+
+Debemos distinguir entre editores de código e IDE. Los editores generalmente son programas ligeros, que ofrecen lo necesario para poder ser productivos y tener una experiencia de desarrollo adecuada, pero sin compliaciones.
+
+Sin embargo, los editores actuales se pueden extender tanto como se quiera, por medio de complementos que los pueden hacer llegar a ser tan avanzados como los IDE.
+
+**Algunos editores de codigo**
+
+
+
 # VISUAL STUDIO CODE
 
+Visual Studio Code, también conocido como VSCode, es un editor de código gratuito, de código abierto y compatible con múltiples plataformas, diseñado para programadores. Desarrollado por Microsoft, una empresa con una larga trayectoria en la creación de entornos de desarrollo integrados (IDEs), ha logrado ofrecer una herramienta ligera y práctica que ha sido ampliamente adoptada por la comunidad.
+
+A pesar de que su nombre evoca a otra herramienta de Microsoft, Visual Studio IDE, VSCode es una aplicación independiente desarrollada con una base de código diferente y utilizando tecnologías completamente distintas. A diferencia de Visual Studio, orientado principalmente a los lenguajes y tecnologías exclusivas de Microsoft, VSCode es versátil y puede adaptarse a cualquier lenguaje de programación imaginable.
+
+VSCode nos permite comenzar a editar con una buena cantidad de herramientas de base que nos evita configurar nada en el editor para disponer de una experiencia de desarrollo bastante buena. Actualmente VSCode es el editor más usado para programadores, con una diferencia disparada de sus competidores. Existen extensiones para personalizarlo para cantidad de lenguajes, frameworks y herramientas.
+
+**¿Para qué sirve Visual Studio Code?**
+Básicamente, se trata de un editor de código. Esto quiere decir, una herramienta que nos permite editar el texto plano de los archivos de código para programación. Sin embargo, detrás de esa necesidad inicial, Visual Studio Code se puede configurar para realizar muchos tipos de tareas, incluso más allá de abrir y escribir simples archivos de texto.
+
+Así pues, VSCode es una herramienta extremadamente versátil, capaz de facilitar muchas tareas de la programación, llegando (con las correspondientes extensiones) a funcionar casi al nivel de un IDE. Ahora resumimos algunas de sus principales funciones.
+
+**Ventajas clave de utilizar Visual Studio Code**
+Al explorar las funcionalidades de Visual Studio Code, hemos dejado entrever algunas de sus ventajas, pero queremos insistir en algunos puntos:
+
+1. Eficiencia y agilidad en la programación.
+2. Amplia compatibilidad con lenguajes y frameworks.
+3. Potentes herramientas de depuración y pruebas.
+4. Integración nativa con Git y control de versiones.
+5. Personalización y extensibilidad para adaptarse a tus necesidades.
