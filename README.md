@@ -5,7 +5,7 @@ CRUD: Es el acrónimo de Create (Crear), Read (Leer), Update (Actualizar) y Dele
 **Integrantes**
 - Jhon Jairo Rendon Zavala
 - Sergio Luis Arcila Quiceno
-https://www.google.com/imgres?imgurl=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcFl8Nb%2Fbtsc3zhNSfW%2FkW0R87obCIloLnS3PI6B5k%2Fimg.png&tbnid=7pul2ESCKMomCM&vet=12ahUKEwi46ZHUxMSFAxVll4QIHeWJA5oQxiAoAXoECAAQKA..i&imgrefurl=https%3A%2F%2Fjunvelee.tistory.com%2F107&docid=QBVOwUFk3zyRjM&w=1280&h=565&itg=1&q=restful%20api&ved=2ahUKEwi46ZHUxMSFAxVll4QIHeWJA5oQxiAoAXoECAAQKA
+
 # Marco Teorico
 
 # API
@@ -165,3 +165,4 @@ Al explorar las funcionalidades de Visual Studio Code, hemos dejado entrever alg
    # POSTMAN
 
    # BIBLIOGRAFIA
+**Replica set:** https://www.mongodb.com/docs/manual/tutorial/deploy-replica-set/
