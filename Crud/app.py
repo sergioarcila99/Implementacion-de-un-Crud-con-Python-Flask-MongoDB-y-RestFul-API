@@ -1,38 +1,23 @@
-from flask import Flask, render_template, request, redirect, url_for
-from flask_pymongo import PyMongo
+from flask import Flask, redirect, url_for
+from login_routes import login_bp
+from show_collection import show_collection_bp
+import os 
 
 app = Flask(__name__)
-app.config['MONGO_URI'] = 'mongodb://localhost:27017/mydatabase'  # Cambia la URI de acuerdo a tu configuración
-mongo = PyMongo(app)
+app.secret_key = os.urandom(24)  # Clave secreta para la sesión
 
+# Registrar el Blueprint del login en la aplicación
+app.register_blueprint(login_bp)
+
+# Registrar el Blueprint de la colección en la aplicación
+app.register_blueprint(show_collection_bp)
+
+# Ruta para redirigir al login
 @app.route('/')
-def index():
-    todos = mongo.db.todos.find()
-    return render_template('index.html', todos=todos)
+def redirect_to_login():
+    return redirect(url_for('login.login'))
 
-@app.route('/create', methods=['GET', 'POST'])
-def create():
-    if request.method == 'POST':
-        todo_content = request.form['content']
-        mongo.db.todos.insert_one({'content': todo_content})
-        return redirect('/')
-    else:
-        return render_template('create.html')
+# Resto del código permanece igual...
 
-@app.route('/update/<string:id>', methods=['GET', 'POST'])
-def update(id):
-    todo = mongo.db.todos.find_one_or_404({'_id': id})
-    if request.method == 'POST':
-        new_content = request.form['content']
-        mongo.db.todos.update_one({'_id': id}, {'$set': {'content': new_content}})
-        return redirect('/')
-    else:
-        return render_template('update.html', todo=todo)
-
-@app.route('/delete/<string:id>')
-def delete(id):
-    mongo.db.todos.delete_one({'_id': id})
-    return redirect('/')
-
-if __name__ == "__main__":
+if __name__ == '__main__':
     app.run(debug=True)
