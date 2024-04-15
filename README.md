@@ -10,6 +10,9 @@ CRUD: Es el acrónimo de Create (Crear), Read (Leer), Update (Actualizar) y Dele
 
 # API
 Las API son mecanismos que permiten a dos componentes de software comunicarse entre sí mediante un conjunto de definiciones y protocolos. Por ejemplo, el sistema de software del instituto de meteorología contiene datos meteorológicos diarios. La aplicación meteorológica de su teléfono “habla” con este sistema a través de las API y le muestra las actualizaciones meteorológicas diarias en su teléfono.
+
+
+
 # RESTFUL API
 Es una API ya implementada que esta construida utilizando la logica de rest, En otras palabras, son el puente de comunicación entre frontend y backend.
 
@@ -50,6 +53,14 @@ MongoDB se utiliza ampliamente en una variedad de aplicaciones, incluyendo aplic
 **REPLICA SET**
 
 Los grupos de réplicas compuestos por tres miembros ofrecen redundancia adecuada para resistir la mayoría de las desconexiones de red y otros fallos del sistema. Además, estos conjuntos tienen la capacidad necesaria para realizar muchas operaciones de lectura distribuida. Es importante que los grupos de réplicas siempre cuenten con un número impar de miembros, lo que asegura que las elecciones se lleven a cabo sin contratiempos. Para obtener información adicional sobre cómo diseñar conjuntos de réplicas, se recomienda revisar la descripción general de la replicación.
+
+**Consideraciones al implementar un conjunto de réplicas**
+
+- Arquitectura
+- Nombres de host
+- Enlace de IP
+- Conectividad
+- Configuración
 
 
 # LENGUAJE DE PROGRAMACION
@@ -147,5 +158,7 @@ Al explorar las funcionalidades de Visual Studio Code, hemos dejado entrever alg
 3. Potentes herramientas de depuración y pruebas.
 4. Integración nativa con Git y control de versiones.
 5. Personalización y extensibilidad para adaptarse a tus necesidades.
+
+   # POSTMAN
 
    # BIBLIOGRAFIA
