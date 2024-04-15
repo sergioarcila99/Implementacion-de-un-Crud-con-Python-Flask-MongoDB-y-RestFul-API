@@ -49,6 +49,7 @@ MongoDB se utiliza ampliamente en una variedad de aplicaciones, incluyendo aplic
 
 **REPLICA SET**
 
+Los grupos de réplicas compuestos por tres miembros ofrecen redundancia adecuada para resistir la mayoría de las desconexiones de red y otros fallos del sistema. Además, estos conjuntos tienen la capacidad necesaria para realizar muchas operaciones de lectura distribuida. Es importante que los grupos de réplicas siempre cuenten con un número impar de miembros, lo que asegura que las elecciones se lleven a cabo sin contratiempos. Para obtener información adicional sobre cómo diseñar conjuntos de réplicas, se recomienda revisar la descripción general de la replicación.
 
 
 # LENGUAJE DE PROGRAMACION
@@ -146,3 +147,5 @@ Al explorar las funcionalidades de Visual Studio Code, hemos dejado entrever alg
 3. Potentes herramientas de depuración y pruebas.
 4. Integración nativa con Git y control de versiones.
 5. Personalización y extensibilidad para adaptarse a tus necesidades.
+
+   # BIBLIOGRAFIA
