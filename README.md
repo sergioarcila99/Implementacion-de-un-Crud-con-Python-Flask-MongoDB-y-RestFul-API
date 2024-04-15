@@ -17,6 +17,8 @@ Las API son mecanismos que permiten a dos componentes de software comunicarse en
 # RESTFUL API
 Es una API ya implementada que esta construida utilizando la logica de rest, En otras palabras, son el puente de comunicación entre frontend y backend.
 
+![rest-api](https://github.com/sergioarcila99/Implementacion-de-un-Crud-con-Python-Flask-MongoDB-y-RestFul-API/assets/163569059/843f1035-d17d-4d62-95b2-7e8034566b6c)
+
 **Principios de una API REST (API RESTful)**
 
 Una API RESTful es una interfaz que utiliza los principios de REST para comunicarse hacia y desde un servidor.
