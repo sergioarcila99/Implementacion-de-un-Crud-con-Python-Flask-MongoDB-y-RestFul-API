@@ -2,6 +2,10 @@
 
 CRUD: Es el acrónimo de Create (Crear), Read (Leer), Update (Actualizar) y Delete (Borrar). Este concepto se utiliza para describir las cuatro operaciones básicas que pueden realizarse en la mayoría de las bases de datos y sistemas de gestión de información.
 
+**Integrantes**
+- Jhon Jairo Rendon Zavala
+- Sergio Luis Arcila Quiceno
+
 # Marco Teorico
 
 # API
