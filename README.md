@@ -10,8 +10,14 @@ CRUD: Es el acrónimo de Create (Crear), Read (Leer), Update (Actualizar) y Dele
 
 # API
 Las API son mecanismos que permiten a dos componentes de software comunicarse entre sí mediante un conjunto de definiciones y protocolos. Por ejemplo, el sistema de software del instituto de meteorología contiene datos meteorológicos diarios. La aplicación meteorológica de su teléfono “habla” con este sistema a través de las API y le muestra las actualizaciones meteorológicas diarias en su teléfono.
+
+![API-Application-Programming-Interfaces](https://github.com/sergioarcila99/Implementacion-de-un-Crud-con-Python-Flask-MongoDB-y-RestFul-API/assets/163569059/9b99e6cd-9203-43d4-8fc5-6125cd6c6c54)
+
+
 # RESTFUL API
 Es una API ya implementada que esta construida utilizando la logica de rest, En otras palabras, son el puente de comunicación entre frontend y backend.
+
+![rest-api](https://github.com/sergioarcila99/Implementacion-de-un-Crud-con-Python-Flask-MongoDB-y-RestFul-API/assets/163569059/843f1035-d17d-4d62-95b2-7e8034566b6c)
 
 **Principios de una API REST (API RESTful)**
 
@@ -45,6 +51,20 @@ MongoDB se utiliza ampliamente en una variedad de aplicaciones, incluyendo aplic
 - **Integración flexible:** Se integra fácilmente con otras plataformas en la nube y herramientas de desarrollo, simplificando el desarrollo de aplicaciones modernas y escalables.
 
 **MongoDB Atlas** es ampliamente utilizado por empresas de todos los tamaños en una variedad de aplicaciones, desde comercio electrónico hasta análisis de datos, debido a su simplicidad, escalabilidad y seguridad. Es una opción popular para aquellos que buscan una base de datos en la nube fácil de usar y altamente confiable.
+
+
+**REPLICA SET**
+
+Los grupos de réplicas compuestos por tres miembros ofrecen redundancia adecuada para resistir la mayoría de las desconexiones de red y otros fallos del sistema. Además, estos conjuntos tienen la capacidad necesaria para realizar muchas operaciones de lectura distribuida. Es importante que los grupos de réplicas siempre cuenten con un número impar de miembros, lo que asegura que las elecciones se lleven a cabo sin contratiempos. Para obtener información adicional sobre cómo diseñar conjuntos de réplicas, se recomienda revisar la descripción general de la replicación.
+
+**Consideraciones al implementar un conjunto de réplicas**
+
+- Arquitectura
+- Nombres de host
+- Enlace de IP
+- Conectividad
+- Configuración
+
 
 # LENGUAJE DE PROGRAMACION
 
@@ -141,3 +161,8 @@ Al explorar las funcionalidades de Visual Studio Code, hemos dejado entrever alg
 3. Potentes herramientas de depuración y pruebas.
 4. Integración nativa con Git y control de versiones.
 5. Personalización y extensibilidad para adaptarse a tus necesidades.
+
+   # POSTMAN
+
+   # BIBLIOGRAFIA
+**Replica set:** https://www.mongodb.com/docs/manual/tutorial/deploy-replica-set/
