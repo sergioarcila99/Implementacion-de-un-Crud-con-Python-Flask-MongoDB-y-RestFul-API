@@ -46,6 +46,11 @@ MongoDB se utiliza ampliamente en una variedad de aplicaciones, incluyendo aplic
 
 **MongoDB Atlas** es ampliamente utilizado por empresas de todos los tamaños en una variedad de aplicaciones, desde comercio electrónico hasta análisis de datos, debido a su simplicidad, escalabilidad y seguridad. Es una opción popular para aquellos que buscan una base de datos en la nube fácil de usar y altamente confiable.
 
+
+**REPLICA SET**
+
+
+
 # LENGUAJE DE PROGRAMACION
 
 # PYTHON
