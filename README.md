@@ -166,3 +166,7 @@ Al explorar las funcionalidades de Visual Studio Code, hemos dejado entrever alg
 
    # BIBLIOGRAFIA
 **Replica set:** https://www.mongodb.com/docs/manual/tutorial/deploy-replica-set/
+**Visual Studio Code:** https://www.arsys.es/blog/que-es-visual-studio-code-y-cuales-son-sus-ventajas
+**Flask:** https://openwebinars.net/blog/que-es-flask/
+**Framework:** https://assemblerinstitute.com/blog/framework-programacion/
+**Rest y Restful API:** https://platzi.com/clases/1638-api-rest/21611-que-significa-rest-y-que-es-una-api-restful/
