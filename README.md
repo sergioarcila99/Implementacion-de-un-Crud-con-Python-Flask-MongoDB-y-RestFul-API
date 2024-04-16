@@ -186,3 +186,4 @@ Este entorno ofrece una GUI que facilita a los desarrolladores el envío de soli
 **Flask:** https://openwebinars.net/blog/que-es-flask/
 **Framework:** https://assemblerinstitute.com/blog/framework-programacion/
 **Rest y Restful API:** https://platzi.com/clases/1638-api-rest/21611-que-significa-rest-y-que-es-una-api-restful/
+**Postman:** https://formadoresit.es/que-es-postman-cuales-son-sus-principales-ventajas/
