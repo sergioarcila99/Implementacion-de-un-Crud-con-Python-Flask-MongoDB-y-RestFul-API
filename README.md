@@ -164,6 +164,22 @@ Al explorar las funcionalidades de Visual Studio Code, hemos dejado entrever alg
 
    # POSTMAN
 
+Es una herramienta que facilita la colaboración y el desarrollo al permitir a los programadores interactuar y evaluar el funcionamiento de servicios web y aplicaciones. Ofrece una interfaz gráfica intuitiva y amigable que simplifica el envío de solicitudes a servidores web y la recepción de las respuestas correspondientes.
+
+Con esta plataforma, es posible administrar varios entornos de desarrollo, organizar las solicitudes en colecciones y llevar a cabo pruebas automatizadas para comprobar el comportamiento de los sistemas. Los desarrolladores utilizan Postman para probar colecciones y catálogos de APIs tanto en el front-end como en el back-end, gestionar el ciclo de vida de las APIs, fomentar el trabajo colaborativo y mejorar la organización del proceso de diseño y desarrollo.
+
+**Cómo funciona Postman**
+
+Este entorno ofrece una GUI que facilita a los desarrolladores el envío de solicitudes HTTP y HTTPS a una API y a gestionar las respuestas recibidas.
+
+**Las principales características y funcionalidades de Postman son:**
+
+- **Envío de solicitudes:** Permite enviar solicitudes GET, POST, PUT, DELETE y otros métodos HTTP a una API especificando los parámetros, encabezados y cuerpo de la solicitud.
+- **Gestión de entornos:** Facilita la configuración para diferentes entornos (por ejemplo, desarrollo, prueba, producción) y el cambio sencillo entre ellos (para realizar pruebas y desarrollo en diferentes contextos).
+- **Colecciones de solicitudes:** Agrupa las solicitudes relacionadas en colecciones, lo que facilita la organización y ejecución de pruebas automatizadas.
+- **Pruebas automatizadas:** Es ideal para crear y ejecutar pruebas automatizadas para verificar el comportamiento de una API (detectar errores e incrementar la calidad del software).
+- **Documentación de API:** Genera de forma automatizada, documentación detallada de la API a partir de las solicitudes y respuestas realizadas, lo que facilita su comprensión y uso por parte de otros desarrolladores.
+
    # BIBLIOGRAFIA
 **Replica set:** https://www.mongodb.com/docs/manual/tutorial/deploy-replica-set/
 **Visual Studio Code:** https://www.arsys.es/blog/que-es-visual-studio-code-y-cuales-son-sus-ventajas
