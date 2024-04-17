@@ -107,7 +107,11 @@ Al estar relacionados con el diseño web, es evidente que existen diferentes fra
 
 **Marco de gestión de contenido**
 De nuevo, un tipo de frameworks relacionados con el diseño web. Aun así, en este caso se trata de interfaces diseñadas para personalizar un CMS. En consecuencia, existen una gran cantidad de CMFs, ideales para diferentes lenguajes e incluso para diferentes tareas dentro de un lenguajes.
+
 # FLASK
+
+Flask es una opción esencial para nuestro proyecto por varias razones cruciales. En primer lugar, su simplicidad y minimalismo nos permiten construir aplicaciones web de manera rápida y eficiente, sin la sobrecarga de características innecesarias. Esto significa que podemos centrarnos en desarrollar funcionalidades específicas de nuestro proyecto sin distracciones. Además, la flexibilidad de Flask nos permite crear aplicaciones web de cualquier tamaño o complejidad, desde pequeñas API hasta aplicaciones web completas. es decir, Flask ofrece la combinación perfecta de simplicidad, flexibilidad y soporte comunitario que necesitamos para construir con éxito nuestro proyecto web.
+
 Flask es un framework escrito en Python que permite crear aplicaciones de forma sencilla y rápida. Es decir, un acelerador de tareas que funciona con pocas líneas de código y que ejecuta las aplicaciones rápidamente. 
 
 **Ventajas de usar Flask**  
