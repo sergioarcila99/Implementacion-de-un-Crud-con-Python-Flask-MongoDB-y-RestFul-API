@@ -28,6 +28,9 @@ Estos métodos son empleados por los clientes para crear, manipular y eliminar d
 # BASE DE DATOS (DB)
 
 # MONGODB
+
+MongoDB es importante en nuestro proyecto por varias razones clave. En primer lugar, su modelo de datos flexible nos permite manejar una variedad de tipos de datos de manera eficiente, lo que es fundamental dado el alcance variable de la implementacion. Además, su capacidad para escalar horizontalmente nos brinda la flexibilidad necesaria para adaptarnos a cambios en la demanda y en el volumen de datos a medida que nuestro proyecto crece. Esto asegura que podamos mantener un rendimiento óptimo sin comprometer la disponibilidad. Además, la capacidad de MongoDB para trabajar con grandes conjuntos de datos y realizar consultas complejas de manera eficiente nos permite obtener información valiosa de nuestros datos, lo que es crucial para la toma de decisiones informadas en nuestro proyecto.
+
 MongoDB es una base de datos NoSQL que se destaca por su flexibilidad y escalabilidad. A diferencia de las bases de datos relacionales, MongoDB no requiere un esquema fijo, lo que significa que puede almacenar datos con estructuras variables en colecciones. En MongoDB, los datos se organizan en bases de datos, colecciones y documentos. Los documentos son objetos JSON que contienen datos y se almacenan en colecciones, similares a las tablas en una base de datos relacional.
 
 Algunas características importantes de MongoDB incluyen su capacidad para escalar horizontalmente, lo que significa que puede distribuir datos entre múltiples servidores para manejar grandes volúmenes de datos y mejorar el rendimiento. MongoDB también ofrece replicación automática de datos para garantizar la alta disponibilidad y la tolerancia a fallos.
