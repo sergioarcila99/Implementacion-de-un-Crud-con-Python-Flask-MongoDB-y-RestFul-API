@@ -15,6 +15,9 @@ Las API son mecanismos que permiten a dos componentes de software comunicarse en
 
 
 # RESTFUL API
+
+Las API RESTful es practicamente una parte fundamental del proyecto ya que su arquitectura basada en estándares nos proporciona un enfoque claro y consistente para diseñar nuestras API, lo que facilita su comprensión y mantenimiento. Además, su naturaleza basada en HTTP nos permite aprovechar todo el potencial de la web, incluyendo la caché, la seguridad y la escalabilidad inherentes al protocolo HTTP. La modularidad y la escalabilidad de las API RESTful nos permiten construir servicios web flexibles y extensibles que pueden adaptarse fácilmente a los cambios en los requisitos del proyecto.
+
 Es una API ya implementada que esta construida utilizando la logica de rest, En otras palabras, son el puente de comunicación entre frontend y backend.
 
 ![rest-api](https://github.com/sergioarcila99/Implementacion-de-un-Crud-con-Python-Flask-MongoDB-y-RestFul-API/assets/163569059/843f1035-d17d-4d62-95b2-7e8034566b6c)
@@ -150,6 +153,8 @@ Sin embargo, los editores actuales se pueden extender tanto como se quiera, por 
 
 # VISUAL STUDIO CODE
 
+Visual Studio Code es una herramienta imprescindible para nuestro proyecto por varias razones clave. En primer lugar, su interfaz de usuario intuitiva y su diseño ergonómico hacen que sea fácil de usar y aumentan nuestra productividad durante el desarrollo. Además, su amplia gama de extensiones y complementos nos permite personalizar y adaptar el entorno de desarrollo según nuestras necesidades específicas, desde la integración con control de versiones hasta la depuración avanzada y la autocompletación de código. La capacidad de Visual Studio Code para trabajar con una variedad de lenguajes de programación y tecnologías nos permite desarrollar nuestro proyecto de manera efectiva, independientemente de las tecnologías que estemos utilizando. 
+
 Visual Studio Code, también conocido como VSCode, es un editor de código gratuito, de código abierto y compatible con múltiples plataformas, diseñado para programadores. Desarrollado por Microsoft, una empresa con una larga trayectoria en la creación de entornos de desarrollo integrados (IDEs), ha logrado ofrecer una herramienta ligera y práctica que ha sido ampliamente adoptada por la comunidad.
 
 A pesar de que su nombre evoca a otra herramienta de Microsoft, Visual Studio IDE, VSCode es una aplicación independiente desarrollada con una base de código diferente y utilizando tecnologías completamente distintas. A diferencia de Visual Studio, orientado principalmente a los lenguajes y tecnologías exclusivas de Microsoft, VSCode es versátil y puede adaptarse a cualquier lenguaje de programación imaginable.
@@ -173,6 +178,8 @@ Al explorar las funcionalidades de Visual Studio Code, hemos dejado entrever alg
 5. Personalización y extensibilidad para adaptarse a tus necesidades.
 
    # POSTMAN
+
+Postman es una herramienta esencial para nuestro proyecto ya que su interfaz de usuario intuitiva y su diseño centrado en el usuario facilitan la creación, prueba y depuración de APIs de manera eficiente. Además, su capacidad para organizar solicitudes en colecciones nos permite mantener nuestras pruebas y desarrollar una API de manera organizada y estructurada. La capacidad de Postman para realizar pruebas automatizadas nos ayuda a garantizar la calidad y estabilidad de nuestra API, identificando rápidamente cualquier problema o error durante el desarrollo.
 
 Es una herramienta que facilita la colaboración y el desarrollo al permitir a los programadores interactuar y evaluar el funcionamiento de servicios web y aplicaciones. Ofrece una interfaz gráfica intuitiva y amigable que simplifica el envío de solicitudes a servidores web y la recepción de las respuestas correspondientes.
 
