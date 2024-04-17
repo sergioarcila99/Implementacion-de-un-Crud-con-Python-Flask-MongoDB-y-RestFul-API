@@ -72,6 +72,9 @@ Los grupos de réplicas compuestos por tres miembros ofrecen redundancia adecuad
 # LENGUAJE DE PROGRAMACION
 
 # PYTHON
+
+Python es una elección fundamental para nuestro proyecto por diversas razones. su sintaxis clara y legible facilita el desarrollo y mantenimiento del código, lo que aumenta la productividad del equipo. Además, la amplia gama de bibliotecas y frameworks disponibles en Python nos brinda acceso a herramientas especializadas para diferentes aspectos de nuestro proyecto, desde el análisis de datos hasta el desarrollo web. La versatilidad de Python también nos permite construir prototipos rápidamente y escalar nuestras soluciones según sea necesario a medida que nuestro proyecto evoluciona. se puede decir entonces que, Python ofrece la combinación perfecta de facilidad de uso, potencia y soporte comunitario que necesitamos para tener éxito en nuestro proyecto.
+
 En el ámbito técnico, Python se define como un lenguaje de programación de alto nivel, con orientación a objetos y una semántica dinámica incorporada, principalmente utilizado para el desarrollo de aplicaciones web y de software. Destaca en el Desarrollo Rápido de Aplicaciones (RAD) debido a su tipificación y encuadernación dinámicas, lo que lo hace atractivo para desarrolladores.
 
 La simplicidad relativa de Python lo convierte en una opción fácil de aprender, gracias a su sintaxis legible y única. Esto facilita la lectura y traducción del código, reduciendo así los costos de mantenimiento y desarrollo del programa. Esto permite a los equipos trabajar juntos sin dificultades significativas de lenguaje y fomenta la experimentación.
