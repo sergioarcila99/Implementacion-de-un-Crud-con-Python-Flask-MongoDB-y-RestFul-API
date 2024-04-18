@@ -2,7 +2,8 @@ from flask import Blueprint, request, jsonify
 from pymongo import MongoClient
 import os
 from flask import jsonify
-
+from dotenv import load_dotenv
+load_dotenv()
 
 main_bp = Blueprint('main', __name__)
 

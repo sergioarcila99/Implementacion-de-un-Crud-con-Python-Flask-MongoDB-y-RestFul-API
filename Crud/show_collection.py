@@ -1,6 +1,8 @@
 from flask import Blueprint, render_template
 from pymongo import MongoClient
 import os
+from dotenv import load_dotenv
+load_dotenv()
 
 show_collection_bp = Blueprint('show_collection', __name__)
 

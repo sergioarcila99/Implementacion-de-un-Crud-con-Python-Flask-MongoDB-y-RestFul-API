@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
     <h1>Bienvenido a mi aplicación Flask</h1>
@@ -16,7 +17,14 @@
      <a href="/show_data">
         <button>Ver Colección</button>
     </a>
+    <br><br>
+     <!-- Botón para ir a la página de crear usuario -->
+     <a href="/create_user_page">
+        <button>Crear usuario</button>
+    </a>
     <br>
+
+
     <!-- Agregar botón de Cerrar sesión -->
     <form action="/logout" method="post">
         <input type="submit" value="Cerrar sesión">

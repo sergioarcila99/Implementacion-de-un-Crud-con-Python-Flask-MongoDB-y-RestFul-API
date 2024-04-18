@@ -2,6 +2,8 @@ from flask import Blueprint, request, session, redirect, url_for,render_template
 from pymongo import MongoClient
 from bson import ObjectId
 import os
+from dotenv import load_dotenv
+load_dotenv()
 
 login_bp = Blueprint('login', __name__)
 

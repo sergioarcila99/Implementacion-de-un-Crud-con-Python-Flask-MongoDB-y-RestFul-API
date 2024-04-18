@@ -25,24 +25,26 @@
     <h1>Datos de la Colección</h1>
     <table>
         <tr>
-            <th>ID</th>
             <th>Nombre</th>
+            <th>Numero</th>
             <th>Edad</th>
+            <th>Acciones</th>
             <!-- Agregar más columnas según tu estructura de datos -->
         </tr>
         {% for item in data %}
         <tr>
-            <td>{{ item._id }}</td>
             <td>{{ item.nombre }}</td>
             <td>{{ item.cantidad }}</td>
+            <td>{{ item.edad }}</td>
             <!-- Agregar más columnas según tu estructura de datos -->
+            <td><a href="/modify_user_page?id={{ item._id }}">Modificar</a></td>
         </tr>
         {% endfor %}
     </table>
     <br>
     <!-- Botón para ir a la página de show_collection -->
     <a href="/">
-        <button>ir inicion</button>
+        <button>Ir a inicio</button>
     </a>
 </body>
 </html>
