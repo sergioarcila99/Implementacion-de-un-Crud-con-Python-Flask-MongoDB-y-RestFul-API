@@ -28,7 +28,8 @@
             <th>Nombre</th>
             <th>Numero</th>
             <th>Edad</th>
-            <th>Acciones</th>
+            <th>Modificar</th>
+            <th>Eliminar</th>
             <!-- Agregar más columnas según tu estructura de datos -->
         </tr>
         {% for item in data %}
@@ -38,6 +39,39 @@
             <td>{{ item.edad }}</td>
             <!-- Agregar más columnas según tu estructura de datos -->
             <td><a href="/modify_user_page?id={{ item._id }}">Modificar</a></td>
+            <td>
+             
+                <form id="deleteForm_{{ item._id }}" action="/delete_user/{{ item._id }}" method="post" style="display: none;">
+                    <input type="hidden" name="_method" value="DELETE">
+                </form>
+                <button onclick="deleteUser('{{ item._id }}')">Eliminar</button>                              
+                
+                <script>
+                    function deleteUser(userId) {
+                        if (confirm("¿Estás seguro de que deseas eliminar este usuario?")) {
+                            var xhr = new XMLHttpRequest();
+                            xhr.open("DELETE", "/delete_user/" + userId, true);
+                            xhr.onreadystatechange = function() {
+                                if (xhr.readyState === 4) {
+                                    if (xhr.status === 200) {
+                                        // Manejar la respuesta si es necesario
+                                        location.reload(); // Recargar la página después de eliminar el usuario
+                                    } else {
+                                        // Manejar el error si es necesario
+                                        alert("Error al eliminar el usuario.");
+                                    }
+                                }
+                            };
+                            xhr.send(); // Enviar una solicitud DELETE sin cuerpo
+                        }
+                    }                    
+                    
+                </script>
+                
+                
+                
+                
+            </td>
         </tr>
         {% endfor %}
     </table>

@@ -3,6 +3,7 @@ from login_routes import login_bp
 from show_collection import show_collection_bp
 from create_user import create_user_bp
 from modificar_user import modify_data_bp
+from delete_user import delete_data_bp
 import os 
 from dotenv import load_dotenv
 load_dotenv()
@@ -21,6 +22,9 @@ app.register_blueprint(create_user_bp)
 
 # Registrar el Blueprint de la modificacion de usuarios en la aplicación 
 app.register_blueprint(modify_data_bp)
+
+# Registrar el Blueprint de la deletacion de usuarios en la aplicación 
+app.register_blueprint(delete_data_bp)
 
 
 # Ruta para redirigir al login
