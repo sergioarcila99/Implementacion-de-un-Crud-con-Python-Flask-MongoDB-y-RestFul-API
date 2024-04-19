@@ -13,7 +13,7 @@ Las API son mecanismos que permiten a dos componentes de software comunicarse en
 
 ![API-Application-Programming-Interfaces](https://github.com/sergioarcila99/Implementacion-de-un-Crud-con-Python-Flask-MongoDB-y-RestFul-API/assets/163569059/9b99e6cd-9203-43d4-8fc5-6125cd6c6c54)
 
-*Tomado de:* 
+*Tomado de:* https://es.abstracta.us/blog/api-testing-guia-practica/
 
 
 # RESTFUL API
