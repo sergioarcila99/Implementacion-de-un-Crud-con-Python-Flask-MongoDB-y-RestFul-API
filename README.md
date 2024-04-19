@@ -241,6 +241,8 @@ Este entorno ofrece una GUI que facilita a los desarrolladores el envío de soli
 
 **Framework:** https://assemblerinstitute.com/blog/framework-programacion/
 
-**Rest y Restful API:** https://platzi.com/clases/1638-api-rest/21611-que-significa-rest-y-que-es-una-api-restful/
+**Restful API:** https://platzi.com/clases/1638-api-rest/21611-que-significa-rest-y-que-es-una-api-restful/
 
 **Postman:** https://formadoresit.es/que-es-postman-cuales-son-sus-principales-ventajas/
+
+**Rest:** https://aws.amazon.com/es/what-is/restful-api/#:~:text=La%20transferencia%20de%20estado%20representacional,una%20red%20compleja%20como%20Internet.
