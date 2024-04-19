@@ -61,7 +61,13 @@ MongoDB se utiliza ampliamente en una variedad de aplicaciones, incluyendo aplic
 
 **REPLICA SET**
 
-Los grupos de réplicas compuestos por tres miembros ofrecen redundancia adecuada para resistir la mayoría de las desconexiones de red y otros fallos del sistema. Además, estos conjuntos tienen la capacidad necesaria para realizar muchas operaciones de lectura distribuida. Es importante que los grupos de réplicas siempre cuenten con un número impar de miembros, lo que asegura que las elecciones se lleven a cabo sin contratiempos. Para obtener información adicional sobre cómo diseñar conjuntos de réplicas, se recomienda revisar la descripción general de la replicación.
+Un conjunto de réplicas es un grupo de mongodb en instancias que mantienen el mismo conjunto de datos. Un conjunto de réplicas contiene varios nodos que contienen datos y, opcionalmente, un nodo árbitro. De los nodos que contienen datos, uno y sólo un miembro se considera nodo primario, mientras que los demás nodos se consideran nodos secundarios.
+
+El nodo principal recibe todas las operaciones de escritura. Un conjunto de réplicas puede tener solo un primario capaz de confirmar escrituras con problemas de escritura; aunque en algunas circunstancias, otra instancia de mongodb puede creer transitoriamente que también es primaria. El primario registra todos los cambios en sus conjuntos de datos en su registro de operaciones, es decir, oplog . 
+
+Los secundarios replican el registro de operaciones del primario y aplican las operaciones a sus conjuntos de datos de manera que los conjuntos de datos de los secundarios reflejen el conjunto de datos del primario. Si la primaria no está disponible, una secundaria elegible llevará a cabo una elección para elegirse a sí misma como la nueva primaria.
+
+En algunas circunstancias (por ejemplo, si tiene una instancia primaria y una secundaria pero las restricciones de costos prohíben agregar otra secundaria), puede optar por agregar una mongodb en instancia a un conjunto de réplicas como árbitro . Un árbitro participa en las elecciones pero no retiene datos (es decir, no proporciona redundancia de datos).
 
 **Consideraciones al implementar un conjunto de réplicas**
 
