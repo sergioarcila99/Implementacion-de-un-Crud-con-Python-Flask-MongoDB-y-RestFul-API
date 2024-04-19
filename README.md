@@ -8,10 +8,27 @@ CRUD: Es el acrónimo de Create (Crear), Read (Leer), Update (Actualizar) y Dele
 
 # Marco Teorico
 
+# REST
+
+La transferencia de estado representacional (REST) es una arquitectura de software que impone condiciones sobre cómo debe funcionar una API. En un principio, REST se creó como una guía para administrar la comunicación en una red compleja como Internet. Es posible utilizar una arquitectura basada en REST para admitir comunicaciones confiables y de alto rendimiento a escala. Puede implementarla y modificarla fácilmente, lo que brinda visibilidad y portabilidad entre plataformas a cualquier sistema de API.
+
+**Por qué debemos utilizar REST**
+
+- Crea una petición HTTP que contiene toda la información necesaria, es decir, un REQUEST a un servidor tiene toda la información necesaria y solo espera una RESPONSE, ósea una respuesta en concreto.
+- Se apoya sobre un protocolo que es el que se utiliza para las páginas web, que es HTTP, es un protocolo que existe hace muchos años y que ya está consolidado, no se tiene que inventar ni realizar cosas nuevas.
+- Se apoya en los métodos básicos de HTTP, como son:
+  **Post:** Para crear recursos nuevos.
+  **Get:** Para obtener un listado o un recurso en concreto.
+  **Put:** Para modificar.
+  **Patch:** Para modificar un recurso que no es un recurso de un dato, por ejemplo.
+  **Delete:** Para borrar un recurso, un dato por ejemplo de nuestra base de datos.
+
 # API
 Las API son mecanismos que permiten a dos componentes de software comunicarse entre sí mediante un conjunto de definiciones y protocolos. Por ejemplo, el sistema de software del instituto de meteorología contiene datos meteorológicos diarios. La aplicación meteorológica de su teléfono “habla” con este sistema a través de las API y le muestra las actualizaciones meteorológicas diarias en su teléfono.
 
 ![API-Application-Programming-Interfaces](https://github.com/sergioarcila99/Implementacion-de-un-Crud-con-Python-Flask-MongoDB-y-RestFul-API/assets/163569059/9b99e6cd-9203-43d4-8fc5-6125cd6c6c54)
+
+*Tomado de:* https://es.abstracta.us/blog/api-testing-guia-practica/
 
 
 # RESTFUL API
@@ -21,6 +38,8 @@ Las API RESTful es practicamente una parte fundamental del proyecto ya que su ar
 Es una API ya implementada que esta construida utilizando la logica de rest, En otras palabras, son el puente de comunicación entre frontend y backend.
 
 ![rest-api](https://github.com/sergioarcila99/Implementacion-de-un-Crud-con-Python-Flask-MongoDB-y-RestFul-API/assets/163569059/843f1035-d17d-4d62-95b2-7e8034566b6c)
+
+*Tomado de:* https://mannhowie.com/rest-api
 
 **Principios de una API REST (API RESTful)**
 
@@ -61,7 +80,17 @@ MongoDB se utiliza ampliamente en una variedad de aplicaciones, incluyendo aplic
 
 **REPLICA SET**
 
-Los grupos de réplicas compuestos por tres miembros ofrecen redundancia adecuada para resistir la mayoría de las desconexiones de red y otros fallos del sistema. Además, estos conjuntos tienen la capacidad necesaria para realizar muchas operaciones de lectura distribuida. Es importante que los grupos de réplicas siempre cuenten con un número impar de miembros, lo que asegura que las elecciones se lleven a cabo sin contratiempos. Para obtener información adicional sobre cómo diseñar conjuntos de réplicas, se recomienda revisar la descripción general de la replicación.
+Un conjunto de réplicas es un grupo de mongodb en instancias que mantienen el mismo conjunto de datos. Un conjunto de réplicas contiene varios nodos que contienen datos y, opcionalmente, un nodo árbitro. De los nodos que contienen datos, uno y sólo un miembro se considera nodo primario, mientras que los demás nodos se consideran nodos secundarios.
+
+El nodo principal recibe todas las operaciones de escritura. Un conjunto de réplicas puede tener solo un primario capaz de confirmar escrituras con problemas de escritura; aunque en algunas circunstancias, otra instancia de mongodb puede creer transitoriamente que también es primaria. El primario registra todos los cambios en sus conjuntos de datos en su registro de operaciones, es decir, oplog . 
+
+Los secundarios replican el registro de operaciones del primario y aplican las operaciones a sus conjuntos de datos de manera que los conjuntos de datos de los secundarios reflejen el conjunto de datos del primario. Si la primaria no está disponible, una secundaria elegible llevará a cabo una elección para elegirse a sí misma como la nueva primaria.
+
+En algunas circunstancias (por ejemplo, si tiene una instancia primaria y una secundaria pero las restricciones de costos prohíben agregar otra secundaria), puede optar por agregar una mongodb en instancia a un conjunto de réplicas como árbitro . Un árbitro participa en las elecciones pero no retiene datos (es decir, no proporciona redundancia de datos).
+
+![replicaset1](https://github.com/sergioarcila99/Implementacion-de-un-Crud-con-Python-Flask-MongoDB-y-RestFul-API/assets/163569059/205398dd-ec8e-4625-bee1-ab7219e6bdca)
+
+*Tomado de:* https://aesale.towncabco.com/category?name=mongodb%20replica%20set%20tutorial
 
 **Consideraciones al implementar un conjunto de réplicas**
 
@@ -204,7 +233,7 @@ Este entorno ofrece una GUI que facilita a los desarrolladores el envío de soli
 - **Documentación de API:** Genera de forma automatizada, documentación detallada de la API a partir de las solicitudes y respuestas realizadas, lo que facilita su comprensión y uso por parte de otros desarrolladores.
 
    # BIBLIOGRAFIA
-**Replica set:** https://www.mongodb.com/docs/manual/tutorial/deploy-replica-set/
+**Replica set:** https://www.mongodb.com/docs/manual/replication/#additional-features
 
 **Visual Studio Code:** https://www.arsys.es/blog/que-es-visual-studio-code-y-cuales-son-sus-ventajas
 
@@ -212,6 +241,8 @@ Este entorno ofrece una GUI que facilita a los desarrolladores el envío de soli
 
 **Framework:** https://assemblerinstitute.com/blog/framework-programacion/
 
-**Rest y Restful API:** https://platzi.com/clases/1638-api-rest/21611-que-significa-rest-y-que-es-una-api-restful/
+**Restful API:** https://platzi.com/clases/1638-api-rest/21611-que-significa-rest-y-que-es-una-api-restful/
 
 **Postman:** https://formadoresit.es/que-es-postman-cuales-son-sus-principales-ventajas/
+
+**Rest:** https://aws.amazon.com/es/what-is/restful-api/#:~:text=La%20transferencia%20de%20estado%20representacional,una%20red%20compleja%20como%20Internet.
