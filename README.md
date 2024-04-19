@@ -149,7 +149,13 @@ Sin embargo, los editores actuales se pueden extender tanto como se quiera, por 
 
 **Algunos editores de codigo**
 
-
+- Visual Studio Code
+- Notepad ++
+- Brackets
+- Komodo Edit
+- Phoenix Editor
+- CodeLobster
+- PSPad
 
 # VISUAL STUDIO CODE
 
@@ -177,7 +183,7 @@ Al explorar las funcionalidades de Visual Studio Code, hemos dejado entrever alg
 4. Integración nativa con Git y control de versiones.
 5. Personalización y extensibilidad para adaptarse a tus necesidades.
 
-   # POSTMAN
+# POSTMAN
 
 Postman es una herramienta esencial para nuestro proyecto ya que su interfaz de usuario intuitiva y su diseño centrado en el usuario facilitan la creación, prueba y depuración de APIs de manera eficiente. Además, su capacidad para organizar solicitudes en colecciones nos permite mantener nuestras pruebas y desarrollar una API de manera organizada y estructurada. La capacidad de Postman para realizar pruebas automatizadas nos ayuda a garantizar la calidad y estabilidad de nuestra API, identificando rápidamente cualquier problema o error durante el desarrollo.
 
@@ -199,8 +205,13 @@ Este entorno ofrece una GUI que facilita a los desarrolladores el envío de soli
 
    # BIBLIOGRAFIA
 **Replica set:** https://www.mongodb.com/docs/manual/tutorial/deploy-replica-set/
+
 **Visual Studio Code:** https://www.arsys.es/blog/que-es-visual-studio-code-y-cuales-son-sus-ventajas
+
 **Flask:** https://openwebinars.net/blog/que-es-flask/
+
 **Framework:** https://assemblerinstitute.com/blog/framework-programacion/
+
 **Rest y Restful API:** https://platzi.com/clases/1638-api-rest/21611-que-significa-rest-y-que-es-una-api-restful/
+
 **Postman:** https://formadoresit.es/que-es-postman-cuales-son-sus-principales-ventajas/
