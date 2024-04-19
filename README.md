@@ -218,7 +218,7 @@ Este entorno ofrece una GUI que facilita a los desarrolladores el envío de soli
 - **Documentación de API:** Genera de forma automatizada, documentación detallada de la API a partir de las solicitudes y respuestas realizadas, lo que facilita su comprensión y uso por parte de otros desarrolladores.
 
    # BIBLIOGRAFIA
-**Replica set:** https://www.mongodb.com/docs/manual/tutorial/deploy-replica-set/
+**Replica set:** https://www.mongodb.com/docs/manual/replication/#additional-features
 
 **Visual Studio Code:** https://www.arsys.es/blog/que-es-visual-studio-code-y-cuales-son-sus-ventajas
 
