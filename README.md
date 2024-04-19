@@ -71,6 +71,8 @@ En algunas circunstancias (por ejemplo, si tiene una instancia primaria y una se
 
 ![replicaset1](https://github.com/sergioarcila99/Implementacion-de-un-Crud-con-Python-Flask-MongoDB-y-RestFul-API/assets/163569059/205398dd-ec8e-4625-bee1-ab7219e6bdca)
 
+*Tomado de:* https://aesale.towncabco.com/category?name=mongodb%20replica%20set%20tutorial
+
 **Consideraciones al implementar un conjunto de réplicas**
 
 - Arquitectura
