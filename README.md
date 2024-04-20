@@ -147,6 +147,8 @@ De nuevo, un tipo de frameworks relacionados con el diseño web. Aun así, en es
 
 Flask es una opción esencial para nuestro proyecto por varias razones cruciales. En primer lugar, su simplicidad y minimalismo nos permiten construir aplicaciones web de manera rápida y eficiente, sin la sobrecarga de características innecesarias. Esto significa que podemos centrarnos en desarrollar funcionalidades específicas de nuestro proyecto sin distracciones. Además, la flexibilidad de Flask nos permite crear aplicaciones web de cualquier tamaño o complejidad, desde pequeñas API hasta aplicaciones web completas. es decir, Flask ofrece la combinación perfecta de simplicidad, flexibilidad y soporte comunitario que necesitamos para construir con éxito nuestro proyecto web.
 
+![Flask-horizontal](https://github.com/sergioarcila99/Implementacion-de-un-Crud-con-Python-Flask-MongoDB-y-RestFul-API/assets/163569059/22d64c18-b3ce-4fea-a67c-dc20267b6dcc)
+
 Flask es un framework escrito en Python que permite crear aplicaciones de forma sencilla y rápida. Es decir, un acelerador de tareas que funciona con pocas líneas de código y que ejecuta las aplicaciones rápidamente. 
 
 **Ventajas de usar Flask**  
@@ -222,6 +224,8 @@ Postman es una herramienta esencial para nuestro proyecto ya que su interfaz de 
 Es una herramienta que facilita la colaboración y el desarrollo al permitir a los programadores interactuar y evaluar el funcionamiento de servicios web y aplicaciones. Ofrece una interfaz gráfica intuitiva y amigable que simplifica el envío de solicitudes a servidores web y la recepción de las respuestas correspondientes.
 
 Con esta plataforma, es posible administrar varios entornos de desarrollo, organizar las solicitudes en colecciones y llevar a cabo pruebas automatizadas para comprobar el comportamiento de los sistemas. Los desarrolladores utilizan Postman para probar colecciones y catálogos de APIs tanto en el front-end como en el back-end, gestionar el ciclo de vida de las APIs, fomentar el trabajo colaborativo y mejorar la organización del proceso de diseño y desarrollo.
+
+![server-client](https://github.com/sergioarcila99/Implementacion-de-un-Crud-con-Python-Flask-MongoDB-y-RestFul-API/assets/163569059/e9f45491-08b4-46da-a84f-923fae1c5b23)
 
 **Cómo funciona Postman**
 
