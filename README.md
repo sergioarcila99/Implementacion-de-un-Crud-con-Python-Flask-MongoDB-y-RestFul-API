@@ -120,6 +120,7 @@ Python es un lenguaje de programación de propósito general, lo que significa q
 El lenguaje de programación Python utiliza módulos de código intercambiables en lugar de largas listas de instrucciones, como era común en los lenguajes de programación funcional. La implementación estándar de Python, conocida como "cpython", no convierte directamente el código en lenguaje de máquina que el hardware pueda entender. En su lugar, lo convierte en un formato llamado "código de bytes", el cual no es legible por la CPU. Por lo tanto, se requiere un intérprete llamado Máquina Virtual Python (PVM) para ejecutar estos códigos de bytes.
 
 ![python-articulo](https://github.com/sergioarcila99/Implementacion-de-un-Crud-con-Python-Flask-MongoDB-y-RestFul-API/assets/163569059/ecb5f58e-02b8-4e56-bb7a-1ddf783beea2)
+
 *Tomado de:* https://www.cnac.es/noticias/que-es-python/
 
 El proceso de ejecución de un programa en Python involucra varias etapas:
@@ -150,6 +151,7 @@ Flask es una opción esencial para nuestro proyecto por varias razones cruciales
 Flask es un framework escrito en Python que permite crear aplicaciones de forma sencilla y rápida. Es decir, un acelerador de tareas que funciona con pocas líneas de código y que ejecuta las aplicaciones rápidamente. 
 
 ![Captura-de-pantalla-615](https://github.com/sergioarcila99/Implementacion-de-un-Crud-con-Python-Flask-MongoDB-y-RestFul-API/assets/163569059/8e8980c2-8b9c-4d4d-af33-8d7714b6eefa)
+
 *Tomado de:* https://keepcoding.io/blog/como-funciona-programa-con-flask-y-servidor-web/
 
 **Ventajas de usar Flask**  
@@ -227,6 +229,7 @@ Es una herramienta que facilita la colaboración y el desarrollo al permitir a l
 Con esta plataforma, es posible administrar varios entornos de desarrollo, organizar las solicitudes en colecciones y llevar a cabo pruebas automatizadas para comprobar el comportamiento de los sistemas. Los desarrolladores utilizan Postman para probar colecciones y catálogos de APIs tanto en el front-end como en el back-end, gestionar el ciclo de vida de las APIs, fomentar el trabajo colaborativo y mejorar la organización del proceso de diseño y desarrollo.
 
 ![server-client](https://github.com/sergioarcila99/Implementacion-de-un-Crud-con-Python-Flask-MongoDB-y-RestFul-API/assets/163569059/e9f45491-08b4-46da-a84f-923fae1c5b23)
+
 *Tomado de:* https://modest-payne-93a7eb.netlify.app/blog/start-postman-series-1/
 
 **Cómo funciona Postman**
