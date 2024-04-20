@@ -119,6 +119,9 @@ Python es un lenguaje de programación de propósito general, lo que significa q
 
 El lenguaje de programación Python utiliza módulos de código intercambiables en lugar de largas listas de instrucciones, como era común en los lenguajes de programación funcional. La implementación estándar de Python, conocida como "cpython", no convierte directamente el código en lenguaje de máquina que el hardware pueda entender. En su lugar, lo convierte en un formato llamado "código de bytes", el cual no es legible por la CPU. Por lo tanto, se requiere un intérprete llamado Máquina Virtual Python (PVM) para ejecutar estos códigos de bytes.
 
+![python-articulo](https://github.com/sergioarcila99/Implementacion-de-un-Crud-con-Python-Flask-MongoDB-y-RestFul-API/assets/163569059/ecb5f58e-02b8-4e56-bb7a-1ddf783beea2)
+*Tomado de:* https://www.cnac.es/noticias/que-es-python/
+
 El proceso de ejecución de un programa en Python involucra varias etapas:
 
 El intérprete lee el código Python e verifica su sintaxis. Si encuentra algún error, detiene la traducción y muestra un mensaje de error.
