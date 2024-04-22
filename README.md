@@ -128,6 +128,7 @@ El proceso de ejecución de un programa en Python involucra varias etapas:
 El intérprete lee el código Python e verifica su sintaxis. Si encuentra algún error, detiene la traducción y muestra un mensaje de error.
 Si el código está bien formateado, el intérprete lo traduce a su equivalente en un lenguaje intermedio llamado "código de bytes".
 Este código de bytes se envía a la Máquina Virtual Python, donde se ejecuta. Si se produce un error durante esta ejecución, se detiene con un mensaje de error.
+
 # FRAMEWORK
 Un framework es una estructura diseñada para simplificar la resolución de problemas comunes en programación. Estas herramientas agilizan el proceso al ayudar con la organización del código y la colaboración en equipos de trabajo. En esencia, los frameworks tienen como propósito hacer más fácil el trabajo de los programadores.
 
@@ -203,6 +204,8 @@ Visual Studio Code, también conocido como VSCode, es un editor de código gratu
 A pesar de que su nombre evoca a otra herramienta de Microsoft, Visual Studio IDE, VSCode es una aplicación independiente desarrollada con una base de código diferente y utilizando tecnologías completamente distintas. A diferencia de Visual Studio, orientado principalmente a los lenguajes y tecnologías exclusivas de Microsoft, VSCode es versátil y puede adaptarse a cualquier lenguaje de programación imaginable.
 
 VSCode nos permite comenzar a editar con una buena cantidad de herramientas de base que nos evita configurar nada en el editor para disponer de una experiencia de desarrollo bastante buena. Actualmente VSCode es el editor más usado para programadores, con una diferencia disparada de sus competidores. Existen extensiones para personalizarlo para cantidad de lenguajes, frameworks y herramientas.
+
+![formulario](https://github.com/sergioarcila99/Implementacion-de-un-Crud-con-Python-Flask-MongoDB-y-RestFul-API/assets/163569059/9a256461-3c40-4f61-9708-edf084ee993c)
 
 **¿Para qué sirve Visual Studio Code?**
 
