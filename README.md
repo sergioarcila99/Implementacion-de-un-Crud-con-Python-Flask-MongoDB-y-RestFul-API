@@ -88,9 +88,9 @@ Los secundarios replican el registro de operaciones del primario y aplican las o
 
 En algunas circunstancias (por ejemplo, si tiene una instancia primaria y una secundaria pero las restricciones de costos prohíben agregar otra secundaria), puede optar por agregar una mongodb en instancia a un conjunto de réplicas como árbitro . Un árbitro participa en las elecciones pero no retiene datos (es decir, no proporciona redundancia de datos).
 
-![replicaset1](https://github.com/sergioarcila99/Implementacion-de-un-Crud-con-Python-Flask-MongoDB-y-RestFul-API/assets/163569059/205398dd-ec8e-4625-bee1-ab7219e6bdca)
+![replica set](https://github.com/sergioarcila99/Implementacion-de-un-Crud-con-Python-Flask-MongoDB-y-RestFul-API/assets/163569059/a4074928-96bd-4de7-998f-d7457e8e00c0)
 
-*Tomado de:* https://aesale.towncabco.com/category?name=mongodb%20replica%20set%20tutorial
+*Tomado de:* https://www.youtube.com/watch?v=t_9QJTBbo30
 
 **Consideraciones al implementar un conjunto de réplicas**
 
