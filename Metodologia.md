@@ -39,3 +39,8 @@ MongoDB almacena los datos en documentos JSON, lo que facilita el mapeo de los d
 **Comunidad activa y soporte**
 
 MongoDB tiene una gran comunidad de usuarios y una amplia documentación, lo que facilita encontrar ayuda y recursos cuando los necesites.
+
+# PYTHON
+
+
+# FLASK
