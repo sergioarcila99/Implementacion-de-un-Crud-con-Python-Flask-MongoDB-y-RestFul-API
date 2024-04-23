@@ -16,20 +16,26 @@
 
 **Verifica la instalación:** Abre la línea de comandos (cmd) y escribe mongo --version. Deberías ver la versión de MongoDB que has instalado.
 
-MongoDB es una base de datos flexible y potente que permite una amplia variedad de enfoques para modelar datos y realizar consultas. A continuación, te presento algunos principios y prácticas comunes que se suelen seguir al trabajar con MongoDB:
+**¿Por qué instalar MongoDB para un proyecto?**
 
-**Modelado de Datos Orientado a Documentos:** En MongoDB, los datos se almacenan en documentos BSON (JSON binario) en lugar de en filas y columnas como en las bases de datos relacionales. Por lo tanto, es importante diseñar el esquema de la base de datos teniendo en cuenta la estructura de los documentos y cómo se van a acceder y manipular los datos.
+MongoDB es una base de datos flexible y potente que permite una amplia variedad de enfoques para modelar datos y realizar consultas. A continuación, te presento algunas caracteristicas de mongoDB.
 
-**Normalización vs. Denormalización:** A diferencia de las bases de datos relacionales, en MongoDB se puede optar por normalizar o denormalizar los datos según las necesidades del caso de uso. La denormalización puede mejorar el rendimiento al reducir la necesidad de realizar operaciones de unión, pero puede aumentar el tamaño de los documentos.
+**Flexibilidad del esquema**
 
-**Índices Eficientes:** MongoDB admite la creación de índices para mejorar el rendimiento de las consultas. Es importante identificar las consultas frecuentes y crear índices adecuados para ellas. Sin embargo, demasiados índices pueden afectar el rendimiento de las operaciones de escritura.
+MongoDB es una base de datos NoSQL, lo que significa que no requiere un esquema fijo como las bases de datos SQL tradicionales. Esto permite una mayor flexibilidad al modelar tus datos, especialmente en proyectos donde los requisitos pueden cambiar con el tiempo.
 
-**Sharding para Escalabilidad Horizontal:** MongoDB ofrece la capacidad de escalar horizontalmente a través del sharding, que distribuye los datos en múltiples servidores. Esto permite manejar grandes volúmenes de datos y aumentar la capacidad de lectura y escritura.
+**Escalabilidad horizontal**
 
-**Transacciones:** A partir de la versión 4.0, MongoDB ofrece soporte para transacciones ACID en ciertos casos de uso, lo que permite realizar operaciones de lectura y escritura en varias colecciones de manera atómica.
+MongoDB está diseñado para la escalabilidad horizontal, lo que significa que puedes distribuir tus datos en múltiples servidores para manejar grandes volúmenes de datos y altas cargas de trabajo.
 
-**Seguridad:** MongoDB proporciona varias características de seguridad, como autenticación, autorización, encriptación de datos en reposo y en tránsito, y auditoría de eventos. Es importante configurar adecuadamente la seguridad para proteger los datos sensibles.
+**Rendimiento**
 
-**Resiliencia y Tolerancia a Fallos:** MongoDB ofrece opciones de configuración para garantizar la resiliencia y la tolerancia a fallos, como la replicación automática y la detección de nodos de manera automática.
+MongoDB está optimizado para un alto rendimiento, lo que lo hace adecuado para aplicaciones que requieren acceso rápido a grandes cantidades de datos.
 
-**Monitorización y Optimización de Rendimiento:** Es importante monitorear el rendimiento del clúster de MongoDB y optimizarlo según sea necesario. Herramientas como MongoDB Compass y MongoDB Cloud Manager pueden ayudar en la monitorización y la optimización del rendimiento.
+**Documentos JSON**
+
+MongoDB almacena los datos en documentos JSON, lo que facilita el mapeo de los datos de tu aplicación a la base de datos, especialmente en entornos donde JavaScript es el lenguaje dominante.
+
+**Comunidad activa y soporte**
+
+MongoDB tiene una gran comunidad de usuarios y una amplia documentación, lo que facilita encontrar ayuda y recursos cuando los necesites.
