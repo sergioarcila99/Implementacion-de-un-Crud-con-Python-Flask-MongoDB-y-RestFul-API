@@ -1,5 +1,21 @@
 # Metodologia de-un-Crud-con-Python-Flask-MongoDB-y-RestFul-API
 
+# MONGODB
+
+**Paso a paso para instalar MongoDB en Windows:**
+
+**Descarga MongoDB:** Ve al sitio web oficial de MongoDB (https://www.mongodb.com/try/download/community) y descarga la versión para Windows.
+
+**Ejecuta el instalador:** Una vez descargado, ejecuta el archivo de instalación (por lo general, un archivo .msi) y sigue las instrucciones del asistente de instalación.
+
+**Configura la ruta de instalación:** Durante la instalación, se te pedirá que elijas la carpeta de instalación. Puedes optar por la ruta predeterminada o elegir una personalizada.
+
+**Instala MongoDB Compass (opcional):** MongoDB Compass es una herramienta gráfica que te permite explorar y administrar tus bases de datos MongoDB. Puedes elegir instalarla durante el proceso de instalación.
+
+**Finaliza la instalación:** Una vez completada la instalación, asegúrate de que la opción "Agregar a la variable de entorno PATH" esté marcada, esto facilitará el uso de MongoDB desde la línea de comandos.
+
+**Verifica la instalación:** Abre la línea de comandos (cmd) y escribe mongo --version. Deberías ver la versión de MongoDB que has instalado.
+
 MongoDB es una base de datos flexible y potente que permite una amplia variedad de enfoques para modelar datos y realizar consultas. A continuación, te presento algunos principios y prácticas comunes que se suelen seguir al trabajar con MongoDB:
 
 **Modelado de Datos Orientado a Documentos:** En MongoDB, los datos se almacenan en documentos BSON (JSON binario) en lugar de en filas y columnas como en las bases de datos relacionales. Por lo tanto, es importante diseñar el esquema de la base de datos teniendo en cuenta la estructura de los documentos y cómo se van a acceder y manipular los datos.
