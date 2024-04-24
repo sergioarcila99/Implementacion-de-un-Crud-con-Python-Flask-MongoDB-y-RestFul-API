@@ -42,5 +42,40 @@ MongoDB tiene una gran comunidad de usuarios y una amplia documentación, lo que
 
 # PYTHON
 
+**Paso a paso para instalar Flask**
+
+**Configuración de Python:** Si aún no tienes Python instalado en tu sistema, descarga e instala la versión más reciente de Python desde el sitio web oficial (https://www.python.org/downloads/). Durante la instalación, asegúrate de marcar la opción "Agregar Python a PATH".
+
+**Instalación de Flask**
+
+Abre una terminal (cmd) y ejecuta el siguiente comando para instalar Flask utilizando pip, el gestor de paquetes de Python:
+
+***pip install flask***
+
+**Crea un proyecto Flask**
+
+Crea una nueva carpeta para tu proyecto Flask y dentro de ella crea un archivo Python (por ejemplo, app.py), que será el punto de entrada de tu aplicación.
+
+**Escribe tu aplicación Flask**
+
+En el archivo app.py, importa Flask y comienza a escribir tu aplicación Flask. Aquí tienes un ejemplo básico para empezar:
+
+***from flask import Flask***
+
+***app = Flask(__name__)***
+
+***@app.route('/')***
+***def hello():***
+    ***return '¡Hola, mundo!'***
+
+***if __name__ == '__main__':***
+    ***app.run(debug=True)***
+
+**Ejecuta tu aplicación**
+
+Desde la terminal, navega hasta la carpeta donde guardaste tu archivo app.py y ejecútalo con el siguiente comando:
+
+***python app.py***
+
 
 # FLASK
