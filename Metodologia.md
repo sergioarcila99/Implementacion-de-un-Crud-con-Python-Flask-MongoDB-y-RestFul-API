@@ -50,15 +50,15 @@ MongoDB tiene una gran comunidad de usuarios y una amplia documentación, lo que
 
 Abre una terminal (cmd) y ejecuta el siguiente comando para instalar Flask utilizando pip, el gestor de paquetes de Python:
 
-***pip install flask*
+*pip install flask*
 
 ***Instalacion de los requerimientos***
 
-***pip install Flask-SQLAlchemy*
+*pip install Flask-SQLAlchemy*
 
-***pip install pymongo Flask-PyMongo*
+*pip install pymongo Flask-PyMongo*
 
-***pip install flask_pymongo*
+*pip install flask_pymongo*
 
 ***Crea un proyecto Flask***
 
@@ -68,22 +68,22 @@ Crea una nueva carpeta para tu proyecto Flask y dentro de ella crea un archivo P
 
 En el archivo app.py, importa Flask y comienza a escribir tu aplicación Flask. Aquí tienes un ejemplo básico para empezar:
 
-***from flask import Flask*
+*from flask import Flask*
 
-***app = Flask(__name__)*
+*app = Flask(__name__)*
 
-***@app.route('/')*
-***def hello():*
-    ***return '¡Hola, mundo!'*
+*@app.route('/')*
+*def hello():*
+    *return '¡Hola, mundo!'*
 
-***if __name__ == '__main__':*
+*if __name__ == '__main__':*
     ***app.run(debug=True)*
 
 ***Ejecuta tu aplicación***
 
 Desde la terminal, navega hasta la carpeta donde guardaste tu archivo app.py y ejecútalo con el siguiente comando:
 
-***python app.py*
+*python app.py*
 
 
 **¿Por qué usar Flask para un proyecto?**
