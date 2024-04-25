@@ -101,29 +101,37 @@ En resumen, Flask es una excelente opción para proyectos web que requieren una 
 
 # PYTHON
 
-Paso a paso para instalar Python en Windows:
-Descarga de Python:
-Ve al sitio web oficial de Python en https://www.python.org/downloads/ y descarga la última versión de Python para Windows. Puedes elegir entre la versión 3.x, que es la versión más reciente y recomendada para nuevos proyectos.
-Ejecuta el instalador:
-Una vez que se haya descargado el archivo de instalación, ábrelo haciendo doble clic en él. Se abrirá el instalador de Python.
-Configura la instalación:
-En el instalador, asegúrate de marcar la opción "Add Python X.X to PATH" (donde X.X es la versión de Python que estás instalando). Esto agregará Python al PATH de tu sistema, lo que te permitirá ejecutar programas Python desde cualquier ubicación en la línea de comandos.
-Selecciona los componentes:
-Puedes elegir instalar componentes adicionales como pip (el gestor de paquetes de Python) y IDLE (el entorno de desarrollo integrado de Python). Estos son útiles para el desarrollo de proyectos Python, así que te recomendaría que los instales también.
-Completa la instalación:
-Haz clic en "Install Now" para comenzar la instalación. Una vez que la instalación esté completa, haz clic en "Close" para salir del instalador.
-Verifica la instalación:
-Abre una nueva ventana de la línea de comandos (cmd) y escribe python --version. Deberías ver la versión de Python que has instalado. Además, puedes probar escribiendo python y presionando Enter para abrir el intérprete interactivo de Python.
+**Paso a paso para instalar Python:**
+
+***Descarga de Python:*** Ve al sitio web oficial de Python en https://www.python.org/downloads/ y descarga la última versión de Python para Windows. Puedes elegir entre la versión 3.x, que es la versión más reciente y recomendada para nuevos proyectos.
+
+***Ejecuta el instalador:*** Una vez que se haya descargado el archivo de instalación, ábrelo haciendo doble clic en él. Se abrirá el instalador de Python.
+
+***Configura la instalación:*** En el instalador, asegúrate de marcar la opción "Add Python X.X to PATH" (donde X.X es la versión de Python que estás instalando). Esto agregará Python al PATH de tu sistema, lo que te permitirá ejecutar programas Python desde cualquier ubicación en la línea de comandos.
+
+***Selecciona los componentes:*** Puedes elegir instalar componentes adicionales como pip (el gestor de paquetes de Python) y IDLE (el entorno de desarrollo integrado de Python). Estos son útiles para el desarrollo de proyectos Python, así que te recomendaría que los instales también.
+
+***Completa la instalación:*** Haz clic en "Install Now" para comenzar la instalación. Una vez que la instalación esté completa, haz clic en "Close" para salir del instalador.
+
+***Verifica la instalación:*** Abre una nueva ventana de la línea de comandos (cmd) y escribe python --version. Deberías ver la versión de Python que has instalado. Además, puedes probar escribiendo python y presionando Enter para abrir el intérprete interactivo de Python.
 
 
-¿Por qué usar Python para un proyecto?
-Simplicidad y legibilidad del código:
+**¿Por qué usar Python para un proyecto?**
+
+***Simplicidad y legibilidad del código***
+
 Python es conocido por su sintaxis simple y legible, lo que lo hace ideal para desarrollar aplicaciones claras y concisas. Esto puede aumentar la productividad y facilitar la colaboración en proyectos de equipo.
-Amplia gama de bibliotecas y frameworks:
+
+***Amplia gama de bibliotecas y frameworks***
+
 Python cuenta con una amplia variedad de bibliotecas y frameworks que cubren casi cualquier necesidad de desarrollo, desde el desarrollo web hasta la inteligencia artificial. Esto hace que Python sea una opción versátil para una amplia gama de proyectos.
-Comunidad activa y soporte:
+
+***Comunidad activa y soporte***
+
 Python tiene una gran comunidad de desarrolladores en todo el mundo, lo que significa que siempre hay recursos y ayuda disponibles cuando la necesitas. Puedes encontrar tutoriales, documentación y comunidades en línea donde puedes hacer preguntas y obtener respuestas.
-Multiplataforma:
+
+***Multiplataforma***
+
 Python es compatible con una amplia gama de plataformas, incluyendo Windows, macOS y Linux. Esto significa que puedes desarrollar tu proyecto en Python y ejecutarlo en diferentes sistemas operativos sin tener que hacer grandes cambios en el código.
 
 En resumen, Python es una excelente opción para una amplia variedad de proyectos debido a su simplicidad, versatilidad y robusta comunidad de desarrolladores.
