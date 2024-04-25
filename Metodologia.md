@@ -135,3 +135,21 @@ Python tiene una gran comunidad de desarrolladores en todo el mundo, lo que sign
 Python es compatible con una amplia gama de plataformas, incluyendo Windows, macOS y Linux. Esto significa que puedes desarrollar tu proyecto en Python y ejecutarlo en diferentes sistemas operativos sin tener que hacer grandes cambios en el código.
 
 En resumen, Python es una excelente opción para una amplia variedad de proyectos debido a su simplicidad, versatilidad y robusta comunidad de desarrolladores.
+
+# POSTMAN
+
+**Paso a paso para instalar Postman en Windows**
+
+***Descarga de Postman:*** Visita el sitio web oficial de Postman en https://www.postman.com/downloads/ y descarga la versión de Postman para Windows.
+
+***Ejecuta el instalador:*** Una vez que se haya descargado el archivo de instalación, ábrelo haciendo doble clic en él. Se abrirá el instalador de Postman.
+
+***Configura la instalación:*** Sigue las instrucciones del instalador para completar la instalación de Postman. Por lo general, solo necesitas hacer clic en "Next" o "Install" para seguir adelante con la instalación.
+
+***Completa la instalación:*** Una vez que la instalación esté completa, puedes optar por abrir Postman inmediatamente después de la instalación. Si no lo haces, puedes encontrar el icono de Postman en tu escritorio o en el menú de inicio.
+
+***Inicia sesión en Postman (opcional):*** Si ya tienes una cuenta de Postman, puedes iniciar sesión para sincronizar tus datos y configuraciones en la nube. Si no tienes una cuenta, también puedes usar Postman de forma local sin necesidad de iniciar sesión.
+
+***Explora Postman:*** Una vez que Postman esté abierto, podrás comenzar a explorar sus características y funcionalidades. Postman es una herramienta poderosa para probar APIs, crear solicitudes HTTP, automatizar flujos de trabajo y colaborar con otros miembros del equipo.
+
+
