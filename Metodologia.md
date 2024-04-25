@@ -152,4 +152,22 @@ En resumen, Python es una excelente opción para una amplia variedad de proyecto
 
 ***Explora Postman:*** Una vez que Postman esté abierto, podrás comenzar a explorar sus características y funcionalidades. Postman es una herramienta poderosa para probar APIs, crear solicitudes HTTP, automatizar flujos de trabajo y colaborar con otros miembros del equipo.
 
+**¿Por qué usar Postman para un proyecto?**
 
+***Pruebas de API***
+
+Postman es ampliamente utilizado para probar APIs. Te permite enviar solicitudes HTTP a tu API, inspeccionar las respuestas y validar el comportamiento de tu API de forma rápida y sencilla.
+
+***Automatización de pruebas***
+
+Postman te permite crear colecciones de solicitudes y escribir scripts de pruebas automatizadas utilizando JavaScript. Esto te permite automatizar el proceso de prueba de tu API y ejecutar pruebas de forma repetitiva.
+
+***Colaboración en equipo***
+
+Postman ofrece características de colaboración que permiten a los miembros del equipo trabajar juntos en el desarrollo y la prueba de APIs. Puedes compartir colecciones de solicitudes, colaborar en el diseño de APIs y sincronizar datos y configuraciones en la nube.
+
+***Documentación de API***
+
+Postman te permite generar automáticamente documentación para tu API a partir de tus colecciones de solicitudes. Esto hace que sea más fácil para otros desarrolladores comprender cómo usar tu API y facilita la integración con otros sistemas.
+
+Como conclusion, Postman es una herramienta imprescindible para cualquier proyecto que implique el desarrollo de APIs. Facilita las pruebas, la automatización y la colaboración en equipo, lo que te permite desarrollar y mantener APIs de forma eficiente.
